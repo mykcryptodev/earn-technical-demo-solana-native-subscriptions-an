@@ -1,0 +1,31 @@
+{
+  "name": "solana-subscriptions-allowances-demo",
+  "version": "1.0.0",
+  "description": "Technical demo code samples for Solana Native Subscriptions & Allowances",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "example:init": "tsx examples/01-init-subscription-authority.ts",
+    "example:fixed": "tsx examples/02-fixed-delegation-allowance.ts",
+    "example:recurring": "tsx examples/03-recurring-delegation.ts",
+    "example:subscription": "tsx examples/04-subscription-plan.ts",
+    "example:multi": "tsx examples/05-multi-delegation-demo.ts",
+    "example:all": "tsx examples/run-all.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@solana-program/token": "^0.13.0",
+    "@solana/kit": "^6.9.0",
+    "@solana/kit-plugin-rpc": "^0.11.1",
+    "@solana/kit-plugin-signer": "^0.10.0",
+    "@solana/subscriptions": "^0.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

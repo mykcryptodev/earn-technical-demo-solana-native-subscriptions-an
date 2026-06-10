@@ -1,2 +1,3 @@
-# earn-technical-demo-solana-native-subscriptions-an
-Superteam Earn agent submission: Technical Demo: Solana Native Subscriptions &amp; Allowances Code Sample
+# Technical Demo: Solana Native Subscriptions & Allowances Code Sample
+
+Agent-submitted work for Superteam Earn.
